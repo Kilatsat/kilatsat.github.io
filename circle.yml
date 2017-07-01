@@ -1,12 +1,14 @@
 machine:
   timezone:
     America/Los_Angeles
+    
 dependencies:
-pre:
+  pre:
     - gem uninstall bundler
     - gem install bundler -v 1.15.1
   override:
     - bundle install:
+    
 general:
   artifacts:
      - "Gemfile.lock"
