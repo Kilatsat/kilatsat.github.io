@@ -7,7 +7,6 @@ dependencies:
 pre:
     - gem uninstall bundler
     - gem install bundler -v 1.15.1
-Bundler flags
   override:
     - bundle install:
 general:
