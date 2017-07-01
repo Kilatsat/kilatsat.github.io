@@ -1,7 +1,14 @@
-dependencies:
-  override:
-    - bundle install:
 machine:
   timezone:
     America/Los_Angeles
+  ruby:
+    version: 2.4.0
+dependencies:
+pre:
+    - gem uninstall bundler
+    - gem install bundler -v 1.15.1
+Bundler flags
+  override:
+    - bundle install:
+
  
