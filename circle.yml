@@ -10,5 +10,6 @@ pre:
 Bundler flags
   override:
     - bundle install:
-
- 
+general:
+  artifacts:
+     - "Gemfile.lock"
