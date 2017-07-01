@@ -1,8 +1,6 @@
 machine:
   timezone:
     America/Los_Angeles
-  ruby:
-    version: 2.4.0
 dependencies:
 pre:
     - gem uninstall bundler
