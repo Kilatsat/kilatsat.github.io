@@ -5,6 +5,7 @@ gem 'github-pages', group: :jekyll_plugins
 # LaunchDarkly
 gem 'ldclient-rb', '2.2.5'
 
+gem 'rake'
 gem 'execjs'
 gem 'therubyracer'
 gem 'puma'
